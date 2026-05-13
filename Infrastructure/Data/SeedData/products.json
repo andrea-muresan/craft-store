@@ -1,0 +1,164 @@
+[
+  {
+    "Name": "Beginner Crochet Starter Kit",
+    "Description": "A complete crochet kit for beginners. Includes yarn, hook, stitch markers, and a step-by-step guide to create your first project.",
+    "Price": 25.99,
+    "PictureUrl": "/images/products/crochet-kit1.png",
+    "Type": "Kits",
+    "Brand": "CraftyJoy",
+    "QuantityInStock": 60
+  },
+  {
+    "Name": "DIY Candle Making Gift Box",
+    "Description": "Make your own scented candles at home. Includes soy wax, fragrance oils, wicks, and jars. Perfect as a present.",
+    "Price": 39.99,
+    "PictureUrl": "/images/products/candle-kit1.png",
+    "Type": "Kits",
+    "Brand": "GlowCraft",
+    "QuantityInStock": 40
+  },
+  {
+    "Name": "Watercolor Painting Starter Set",
+    "Description": "High quality watercolor set with brushes and paper. Great for beginners and hobby artists.",
+    "Price": 19.99,
+    "PictureUrl": "/images/products/watercolor-set1.png",
+    "Type": "Painting",
+    "Brand": "ArtNest",
+    "QuantityInStock": 85
+  },
+  {
+    "Name": "Acrylic Paint Set - 24 Colors",
+    "Description": "Acrylic paint pack with vibrant colors. Suitable for canvas, wood, and paper craft projects.",
+    "Price": 17.50,
+    "PictureUrl": "/images/products/acrylic-paint1.png",
+    "Type": "Painting",
+    "Brand": "ColorWave",
+    "QuantityInStock": 120
+  },
+  {
+    "Name": "Embroidery Hoop Kit",
+    "Description": "DIY embroidery kit with hoop, needles, floss, and a floral design pattern. Ideal for gift crafting.",
+    "Price": 22.00,
+    "PictureUrl": "/images/products/embroidery-kit1.png",
+    "Type": "Sewing",
+    "Brand": "ThreadBloom",
+    "QuantityInStock": 55
+  },
+  {
+    "Name": "Sewing Essentials Tool Set",
+    "Description": "Compact sewing tool kit including scissors, needles, measuring tape, thread spools, and pins.",
+    "Price": 14.99,
+    "PictureUrl": "/images/products/sewing-tools1.png",
+    "Type": "Sewing",
+    "Brand": "StitchPro",
+    "QuantityInStock": 90
+  },
+  {
+    "Name": "Premium Yarn Bundle (5 Pack)",
+    "Description": "Soft and durable yarn bundle for knitting and crochet. Great for sweaters, scarves, and amigurumi.",
+    "Price": 18.99,
+    "PictureUrl": "/images/products/yarn-bundle1.png",
+    "Type": "Yarn",
+    "Brand": "WoollyHeart",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "Knitting Needles Set (Wooden)",
+    "Description": "Lightweight wooden knitting needles set. Smooth finish for comfortable crafting sessions.",
+    "Price": 12.50,
+    "PictureUrl": "/images/products/knitting-needles1.png",
+    "Type": "Yarn",
+    "Brand": "WoollyHeart",
+    "QuantityInStock": 65
+  },
+  {
+    "Name": "Beads Jewelry Making Kit",
+    "Description": "Complete jewelry kit with colorful beads, elastic strings, clasps, and tools. Perfect for bracelets and necklaces.",
+    "Price": 29.99,
+    "PictureUrl": "/images/products/beads-kit1.png",
+    "Type": "Jewelry",
+    "Brand": "BeadMagic",
+    "QuantityInStock": 48
+  },
+  {
+    "Name": "Mini Jewelry Pliers Set",
+    "Description": "Small precision pliers set for jewelry making and wire craft projects.",
+    "Price": 9.99,
+    "PictureUrl": "/images/products/jewelry-pliers1.png",
+    "Type": "Jewelry",
+    "Brand": "BeadMagic",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Scrapbooking Paper Pack (50 Sheets)",
+    "Description": "Decorative paper pack with mixed patterns. Great for scrapbooking, card making, and journaling.",
+    "Price": 11.99,
+    "PictureUrl": "/images/products/scrapbook-paper1.png",
+    "Type": "PaperCraft",
+    "Brand": "PaperMuse",
+    "QuantityInStock": 110
+  },
+  {
+    "Name": "DIY Greeting Card Craft Kit",
+    "Description": "Card making kit with stickers, templates, glitter glue, and craft paper. Perfect handmade gift experience.",
+    "Price": 16.99,
+    "PictureUrl": "/images/products/card-kit1.png",
+    "Type": "PaperCraft",
+    "Brand": "PaperMuse",
+    "QuantityInStock": 72
+  },
+  {
+    "Name": "Hot Glue Gun + Glue Sticks Set",
+    "Description": "High temperature glue gun with 20 glue sticks included. Useful for many craft projects.",
+    "Price": 13.99,
+    "PictureUrl": "/images/products/glue-gun1.png",
+    "Type": "Tools",
+    "Brand": "FixCraft",
+    "QuantityInStock": 95
+  },
+  {
+    "Name": "Craft Scissors Set (3 Pack)",
+    "Description": "Multipurpose scissors set for paper cutting, fabric trimming, and detailed craft work.",
+    "Price": 10.50,
+    "PictureUrl": "/images/products/scissors-set1.png",
+    "Type": "Tools",
+    "Brand": "FixCraft",
+    "QuantityInStock": 140
+  },
+  {
+    "Name": "DIY Resin Art Starter Kit",
+    "Description": "Resin art kit including epoxy resin, pigments, mixing tools, and molds. Create keychains and decorations.",
+    "Price": 45.00,
+    "PictureUrl": "/images/products/resin-kit1.png",
+    "Type": "Kits",
+    "Brand": "ResinWorld",
+    "QuantityInStock": 30
+  },
+  {
+    "Name": "Polymer Clay Starter Kit",
+    "Description": "Set of polymer clay blocks with sculpting tools. Perfect for charms, mini figurines, and creative gifts.",
+    "Price": 27.99,
+    "PictureUrl": "/images/products/clay-kit1.png",
+    "Type": "Clay",
+    "Brand": "ClayCraft",
+    "QuantityInStock": 45
+  },
+  {
+    "Name": "DIY Soap Making Kit",
+    "Description": "Homemade soap kit with soap base, molds, fragrance oils, and color pigments.",
+    "Price": 34.99,
+    "PictureUrl": "/images/products/soap-kit1.png",
+    "Type": "Kits",
+    "Brand": "PureCraft",
+    "QuantityInStock": 33
+  },
+  {
+    "Name": "Wood Painting Decoration Set",
+    "Description": "Wooden shapes set for painting and decorating. Includes stars, hearts, and seasonal designs.",
+    "Price": 15.99,
+    "PictureUrl": "/images/products/wood-decor1.png",
+    "Type": "Painting",
+    "Brand": "ArtNest",
+    "QuantityInStock": 80
+  }
+]
