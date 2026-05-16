@@ -1,3 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+html {
+    --color-dark-brown: #5C3317;
+    --color-medium-brown: #8B5A2B;
+    --color-terracotta: #D4764E;
+    --color-rose-brown: #A0725C;
+    --color-beige: #E8D5C4;
+    --color-cream: #FDF6F0;
+
+    --text-color: light-dark(var(--color-dark-brown), var(--color-cream));
+    --text-muted: light-dark(var(--color-rose-brown), var(--color-beige));
+    --bg-color: light-dark(#FDF6F0, #1a0f07);
+    --border-color: light-dark(var(--color-beige), #3d220f);
+
+    --banner-bg: light-dark(var(--color-medium-brown), var(--color-dark-brown));
+    --banner-text: light-dark(var(--color-cream), var(--color-beige));
+    --badge-bg: light-dark(var(--color-terracotta), #e29272);
+    --card-hover-shadow: light-dark(rgba(139, 90, 43, 0.15), rgba(0, 0, 0, 0.5));
+}
