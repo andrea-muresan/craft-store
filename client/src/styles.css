@@ -20,3 +20,7 @@ html {
     --badge-bg: light-dark(var(--color-terracotta), #e29272);
     --card-hover-shadow: light-dark(rgba(139, 90, 43, 0.15), rgba(0, 0, 0, 0.5));
 }
+
+.container {
+    @apply mx-auto px-6
+}

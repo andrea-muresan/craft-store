@@ -15,7 +15,7 @@ public class ProductsController(IGenericRepository<Product> repo): BaseApiContro
     {
         var spec = new ProductSpecification(specParams);
         
-        return Ok(await CreatePageResult(repo, spec, specParams.PageIndex, specParams.PageSize));
+        return await CreatePageResult(repo, spec, specParams.PageIndex, specParams.PageSize);
     } 
 
     [HttpGet("{id:int}")] // api/products/2
