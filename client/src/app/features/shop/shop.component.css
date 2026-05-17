@@ -1,0 +1,18 @@
+@reference 'tailwindcss';
+
+.white-button {
+  @apply flex items-center gap-2 px-4 py-2.5;
+  background-color: #ffffff;
+  border: 1px solid #d6d1c4;
+  @apply rounded-lg text-sm font-medium;
+  color: #2c2a25;
+  @apply transition-all;
+}
+
+.white-button:hover {
+  border-color: #2c2a25;
+}
+
+.serach-icon:hover {
+   color: var(--color-terracotta);
+}

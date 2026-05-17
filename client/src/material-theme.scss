@@ -3,8 +3,19 @@
 
 :root {
   @include mat.button-overrides((
-    // filled-container-shape: orange,
-    // container-elevation-shadow: -4px -4px 5px 0px rgba(0, 0, 0, 0.5),
+    filled-container-color: var(--color-terracotta)
+  ));
+}
+
+:root {
+  @include mat.menu-overrides((
+    container-color: #ffffff,
+  ));
+}
+
+:root {
+  @include mat.paginator-overrides((
+    container-background-color: var(--bg-color),
   ));
 }
 

@@ -1,0 +1,41 @@
+<div id="filterOverlay" 
+     class="fixed inset-0 bg-black/40 z-50 flex items-center justify-center p-4 transition-opacity"> 
+  <div class="bg-white rounded-2xl w-full max-w-md shadow-2xl max-h-[80%] flex flex-col" 
+       (click)="$event.stopPropagation()">
+    
+    <div class="flex px-6 py-5 border-b border-gray-200">
+      <h2 class="text-lg font-bold text-gray-800">Filters</h2>
+    </div>
+
+    <div class="overflow-auto px-6 py-5 flex-1 space-y-6">
+      <div>
+        <h3 class="text-sm font-semibold mb-3 uppercase tracking-wider">Brands</h3>
+        <mat-selection-list [(ngModel)]="selectedBrands" [multiple]="true">
+          @for (brand of shopService.brands; track brand) {
+            <mat-list-option [value]="brand" class="text-sm">
+              {{brand}}
+            </mat-list-option>
+          }
+        </mat-selection-list>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <div>
+        <h3 class="text-sm font-semibold mb-3 uppercase tracking-wider">Types</h3>
+        <mat-selection-list [(ngModel)]="selectedTypes" [multiple]="true">
+          @for (type of shopService.types; track type) {
+            <mat-list-option [value]="type" class="text-sm">
+              {{type}}
+            </mat-list-option>
+          }
+        </mat-selection-list>
+      </div>
+    </div>
+
+    <div class="flex justify-end p-4 border-t border-gray-100 gap-2">
+      <button mat-button (click)="onClose()">Cancel</button>
+      <button mat-flat-button color="primary" (click)="applyFilters()">Apply Filters</button>
+    </div>
+  </div>
+</div>

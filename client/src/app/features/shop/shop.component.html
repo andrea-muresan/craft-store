@@ -1,0 +1,80 @@
+<div class="flex flex-col gap-6 max-w-6xl mx-auto p-4">
+    <!-- Header: Search & Filter Controls -->
+    <div class="w-full max-w-2xl mx-auto flex flex-col gap-3">
+        <form #searchForm="ngForm" (ngSubmit)="onSearchChange()" class="relative">
+            <input 
+                type="text"
+                class="block w-full p-4 pr-12 text-sm bg-white border border-[#d6d1c4] rounded-lg focus:outline-none focus:border-[#2c2a25] transition-colors"
+                placeholder="Search..."
+                name="search"
+                [(ngModel)]="shopParams.search">
+            <button type="submit" class="absolute inset-y-0 right-4 flex items-center pl-3 text-[#2c2a25]">
+                <svg lucideSearch class="w-5 h-5"></svg>
+            </button>
+        </form>
+
+        <div class="flex flex-wrap items-center gap-3">
+            <button [matMenuTriggerFor]="sortMenu" class="white-button"> 
+                <svg lucideArrowUpDown class="w-4 h-4"></svg> 
+                <span>Sort</span> 
+                <svg lucideChevronDown class="w-3.5 h-3.5 ml-1"></svg> 
+            </button>
+            
+            <button class="white-button" (click)="openFiltersDialog()"> 
+                <svg lucideSlidersHorizontal class="w-4 h-4"></svg> 
+                <span>Filters</span>
+            </button>
+
+            <div class="flex-1"></div>
+
+            <button class="white-button" [matMenuTriggerFor]="pageSizeMenu"> 
+                <span>{{ shopParams.pageSize }} per page</span> 
+                <svg lucideChevronDown class="w-3.5 h-3.5"></svg> 
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Grid: Product Items -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
+        @for (product of products?.data; track product.id) {
+            <app-product-item [product]="product"></app-product-item>
+        } @empty {
+            <div class="col-span-full text-center py-12 text-[#8a8577]">
+                No products found matching your criteria.
+            </div>
+        }
+    </div>
+    
+    <!-- Footer: Pagination Layout -->
+    <mat-paginator
+        class="bg-white border-t border-[#d6d1c4]/40 pt-2"
+        [length]="products?.count ?? 0"
+        [pageSize]="shopParams.pageSize"
+        [pageIndex]="shopParams.pageNumber - 1"
+        [pageSizeOptions]="pageSizeOptions"
+        [showFirstLastButtons]="true"
+        (page)="handlePageEvent($event)"
+        aria-label="Select page">
+    </mat-paginator>
+</div>
+
+<!-- Angular Material Overlay Menus -->
+<mat-menu #sortMenu="matMenu">
+    <mat-selection-list [multiple]="false" (selectionChange)="onSortChange($event)">
+        @for (sort of sortOptions; track sort.value) {
+            <mat-list-option [value]="sort.value" [selected]="shopParams.sort === sort.value">
+                {{ sort.name }}
+            </mat-list-option>
+        }
+    </mat-selection-list>
+</mat-menu>
+
+<mat-menu #pageSizeMenu="matMenu">
+    <mat-selection-list [multiple]="false" (selectionChange)="handlePageSizeChange($event)">
+        @for (count of pageSizeOptions; track count) {
+            <mat-list-option [value]="count" [selected]="shopParams.pageSize === count">
+                {{ count }} per page
+            </mat-list-option>
+        }
+    </mat-selection-list>
+</mat-menu>

@@ -32,7 +32,7 @@
     "Price": 17.50,
     "PictureUrl": "/images/products/acrylic-paint1.png",
     "Type": "Painting",
-    "Brand": "ColorWave",
+    "Brand": "ArtNest",
     "QuantityInStock": 120
   },
   {
@@ -41,7 +41,7 @@
     "Price": 22.00,
     "PictureUrl": "/images/products/embroidery-kit1.png",
     "Type": "Sewing",
-    "Brand": "ThreadBloom",
+    "Brand": "CraftyJoy",
     "QuantityInStock": 55
   },
   {
@@ -50,7 +50,7 @@
     "Price": 14.99,
     "PictureUrl": "/images/products/sewing-tools1.png",
     "Type": "Sewing",
-    "Brand": "StitchPro",
+    "Brand": "WoollyHeart",
     "QuantityInStock": 90
   },
   {
@@ -95,7 +95,7 @@
     "Price": 11.99,
     "PictureUrl": "/images/products/scrapbook-paper1.png",
     "Type": "PaperCraft",
-    "Brand": "PaperMuse",
+    "Brand": "ArtNest",
     "QuantityInStock": 110
   },
   {
@@ -104,7 +104,7 @@
     "Price": 16.99,
     "PictureUrl": "/images/products/card-kit1.png",
     "Type": "PaperCraft",
-    "Brand": "PaperMuse",
+    "Brand": "ArtNest",
     "QuantityInStock": 72
   },
   {
@@ -113,7 +113,7 @@
     "Price": 13.99,
     "PictureUrl": "/images/products/glue-gun1.png",
     "Type": "Tools",
-    "Brand": "FixCraft",
+    "Brand": "GlowCraft",
     "QuantityInStock": 95
   },
   {
@@ -122,7 +122,7 @@
     "Price": 10.50,
     "PictureUrl": "/images/products/scissors-set1.png",
     "Type": "Tools",
-    "Brand": "FixCraft",
+    "Brand": "GlowCraft",
     "QuantityInStock": 140
   },
   {
@@ -131,7 +131,7 @@
     "Price": 45.00,
     "PictureUrl": "/images/products/resin-kit1.png",
     "Type": "Kits",
-    "Brand": "ResinWorld",
+    "Brand": "GlowCraft",
     "QuantityInStock": 30
   },
   {
@@ -149,7 +149,7 @@
     "Price": 34.99,
     "PictureUrl": "/images/products/soap-kit1.png",
     "Type": "Kits",
-    "Brand": "PureCraft",
+    "Brand": "ClayCraft",
     "QuantityInStock": 33
   },
   {

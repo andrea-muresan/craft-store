@@ -14,6 +14,7 @@ html {
     --text-muted: light-dark(var(--color-rose-brown), var(--color-beige));
     --bg-color: light-dark(#FDF6F0, #1a0f07);
     --border-color: light-dark(var(--color-beige), #3d220f);
+    --button-color: var(--color-terracotta);
 
     --banner-bg: light-dark(var(--color-medium-brown), var(--color-dark-brown));
     --banner-text: light-dark(var(--color-cream), var(--color-beige));
@@ -23,4 +24,12 @@ html {
 
 .container {
     @apply mx-auto px-6
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--color-medium-brown);
 }

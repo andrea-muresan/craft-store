@@ -1,0 +1,22 @@
+span {
+    color: var(--color-terracotta);
+}
+
+.product-card:hover { 
+    transform: translateY(-4px); 
+}
+
+.product-card { 
+    transition: transform 0.3s ease;
+    box-shadow: 0.3s ease;
+    background-color: var(--color-cream);
+    border: 1px solid var(--border-color);
+}
+
+.product-card:hover { 
+    box-shadow: 0 12px 30px rgba(139, 90, 43, 0.15)
+}
+
+button {
+    background-color: var(--button-color);
+}
